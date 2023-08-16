@@ -1,0 +1,95 @@
+body{
+    background-color: rgb(11, 7, 243);
+    background-image: url();
+    display: grid;
+    grid-template-areas: 
+        "cab cab cab"
+        "sec pri pri"
+        "rod rod rod";
+    grid-gap: 5px;
+    grid-template-columns: 20% auto auto;
+    grid-template-rows: auto 1000px auto;
+}
+
+header{
+    grid-area: cab;
+}
+aside{
+    grid-area: sec;
+}
+main{
+    grid-area: pri;
+}
+footer{
+    grid-area: rod;
+}
+
+header, aside, main, footer{
+    background-color: rgba(182, 226, 233, 0.7);
+}
+
+
+.card{
+    border: black 2px solid;
+    width: 350px;
+    margin: 50px;
+    height: 500px; 
+    display: flex;
+    justify-content: center ;body{
+        background-color: rgb(72, 168, 231);
+        background-image: url();
+        display: grid;
+        grid-template-areas: 
+            "cab cab cab"
+            "sec pri pri"
+            "rod rod rod";
+        grid-gap: 5px;
+        grid-template-columns: 20% auto auto;
+        grid-template-rows: auto 1000px auto;
+    }
+    
+    header{
+        grid-area: cab;
+    }
+    aside{
+        grid-area: sec;
+    }
+    main{
+        grid-area: pri;
+    }
+    footer{
+        grid-area: rod;
+    }
+    
+    header, aside, main, footer{
+        background-color: rgba(182, 226, 233, 0.7);
+    }
+    
+    
+    .card{
+        border: black 2px solid;
+        width: 300px;
+        margin: 10px;
+        height: 500px; 
+        display: flex;
+        justify-content: center ;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+    .box_mae{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    align-items: center;
+    flex-direction: column;
+    
+}
+.box_mae{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
